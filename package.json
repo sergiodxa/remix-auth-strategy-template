@@ -51,6 +51,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "remix-auth": "^2.5.1"
+    "remix-auth": "^3.0.0"
   }
 }
