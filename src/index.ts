@@ -17,19 +17,16 @@ export interface MyStrategyOptions {
  * This interface declares what the developer will receive from the strategy
  * to verify the user identity in their system.
  */
-export interface MyStrategyVerifyCallbackParams {
+export interface MyStrategyVerifyParams {
   something: "Dev may need";
 }
 
-export class MyStrategy<User> extends Strategy<
-  User,
-  MyStrategyVerifyCallbackParams
-> {
+export class MyStrategy<User> extends Strategy<User, MyStrategyVerifyParams> {
   name = "change-me";
 
   constructor(
     options: MyStrategyOptions,
-    verify: StrategyVerifyCallback<User, MyStrategyVerifyCallbackParams>
+    verify: StrategyVerifyCallback<User, MyStrategyVerifyParams>
   ) {
     super(verify);
     // do something with the options here
