@@ -23,3 +23,26 @@ The repo installs the latest version of Remix Auth and do the setup for you to h
 - `typecheck`: Check the project for type errors, this also happens in build but it's useful to do in development.
 - `lint`: Runs ESLint againt the source codebase to ensure it pass the linting rules.
 - `test`: Runs all the test using Jest.
+
+## Documentations
+
+To facilitae creating a documentation for your strategy, you can use the following Markdown
+
+```markdown
+# Strategy Name
+
+<!-- Description -->
+
+## Supported runtimes
+
+| Runtime    | Has Support |
+| ---------- | ----------- |
+| Node.js    | ✅          |
+| Cloudflare | ✅          |
+
+<!-- If it doesn't support one runtime, explain here why -->
+
+## How to use
+
+<!-- Explain how to use the strategy, here you should tell what options it expects from the developer when instantiating the strategy -->
+```
