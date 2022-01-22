@@ -26,7 +26,7 @@ The repo installs the latest version of Remix Auth and do the setup for you to h
 
 ## Documentations
 
-To facilitae creating a documentation for your strategy, you can use the following Markdown
+To facilitate creating a documentation for your strategy, you can use the following Markdown
 
 ```markdown
 # Strategy Name
