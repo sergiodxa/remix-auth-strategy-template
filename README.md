@@ -14,14 +14,14 @@ The repo installs the latest version of Remix Auth and do the setup for you to h
 4. In `tests/index.test.ts` change the tests to use your strategy and test it. Inside the tests you have access to `jest-fetch-mock` to mock any fetch you may need to do.
 5. Once you are ready, set the secrets on Github
    - `NPM_TOKEN`: The token for the npm registry
-   - `GIT_USER_NAME`: The you want the bump workflow to use in the commit.
+   - `GIT_USER_NAME`: The git username you want the bump workflow to use in the commit.
    - `GIT_USER_EMAIL`: The email you want the bump workflow to use in the commit.
 
 ## Scripts
 
 - `build`: Build the project for production using the TypeScript compiler (strips the types).
 - `typecheck`: Check the project for type errors, this also happens in build but it's useful to do in development.
-- `lint`: Runs ESLint againt the source codebase to ensure it pass the linting rules.
+- `lint`: Runs ESLint against the source codebase to ensure it pass the linting rules.
 - `test`: Runs all the test using Jest.
 
 ## Documentations
