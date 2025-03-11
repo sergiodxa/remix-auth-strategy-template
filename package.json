@@ -36,7 +36,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"react-router": "^7.0.2",
+		"react-router": "^7.3.0",
 		"remix-auth": "^4.0.0"
 	},
 	"peerDependencies": {},
